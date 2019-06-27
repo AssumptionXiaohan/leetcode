@@ -15,7 +15,8 @@ public class JumpGame {
                 can_jump = i;
             }
         }
-        if(can_jump==0) return true;
-        else return false;
+        /*if(can_jump==0) return true;
+        else return false;*/
+        return can_jump==0;
     }
 }
