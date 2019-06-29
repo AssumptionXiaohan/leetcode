@@ -10,43 +10,51 @@ public class MedianOfTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         //默认nums1长度小，在nums1上做二分查找，如果nums1长度比nums2长，重新调用一次函数把参数反过来
         if (nums1.length > nums2.length) return findMedianSortedArrays(nums2, nums1);
-        //nums1如果是空数组
         if (nums1.length == 0) return findArrayMedium(nums2);
 
+        //length表示左边部分总元素的个数
         int length = (nums1.length + nums2.length + 1) / 2;
-        int nums1_left = 0, nums1_right = nums1.length - 1, num1_mid, nums2_idx;
+        int nums1_left = 0, nums1_right = nums1.length - 1, num1_mid = 0, nums2_idx = 0;
         while (nums1_left <= nums1_right) {
-            num1_mid = (nums1_left + nums1_right) / 2;
+            num1_mid = nums1_left + (nums1_right - nums1_left) / 2;
             nums2_idx = length - num1_mid - 2;
+            if (nums2_idx < 0) break;
             if (nums1[num1_mid] > nums2[nums2_idx + 1]) {
                 //第一个数组的左边最大值大于第二个数组右边最小值，说明这个数太大了要往左边挪
                 nums1_right = num1_mid - 1;
-            } else if (num1_mid != nums1.length - 1 && nums2[nums2_idx] > nums1[num1_mid + 1]) {
+            } else if (num1_mid + 1 >= nums1.length) {
+                break;
+            } else if (nums2[nums2_idx] > nums1[num1_mid + 1]) {
                 //第二个数组的左边最大值大于第一个数组右边最小值，说明第一个数组现在的位置的数太小了要往右边挪
-                //要处理一下这个时候第一个数组右边可能没有值了，被拉满了
                 nums1_left = num1_mid + 1;
             } else {
-                //现在是满足条件的情况
-                double left_max;
-                //nums2_idx可能等于-1如果nums1所有的元素都小于nums2的元素
-                if (nums2_idx != -1) left_max = Math.max(nums1[num1_mid], nums2[nums2_idx]);
-                else left_max = nums1[num1_mid];
-
-                double right_min;
-                //防止+1之后index out of range 因为nums1可能被拉满了
-                if (num1_mid != nums1.length - 1) right_min = Math.min(nums1[num1_mid + 1], nums2[nums2_idx + 1]);
-                else right_min = nums2[nums2_idx + 1];
-
-                if (nums1.length + nums2.length % 2 == 1) {
-                    //假设总长度是奇数，中位数是两个数的左部分最大值
-                    return left_max;
-                } else {
-                    //偶数的话要做一个平均
-                    return (left_max + right_min) / 2;
-                }
+                break;
             }
         }
-        return -1;
+
+        //开始找到中位数
+        double left_max = 0, right_min = 0;
+        //right<0(=-1)，说明左部分全部在nums2里,nums2_idx<0说明左部分全部在nums1里，
+        if (nums1_right < 0) {
+            nums2_idx++; //这一步是因为之前nums_right往左挪变成-1时，nums2_idx没有往后挪
+            left_max = nums2[nums2_idx];
+            right_min = nums2_idx + 1 < nums2.length ? Math.min(nums1[0], nums2[nums2_idx + 1]) : nums1[0];
+        } else if (nums2_idx < 0) {
+            //左部分最大值就是nums1的最大值，右部分最小值就是nums2最小值
+            left_max = nums1[num1_mid];
+            right_min = num1_mid + 1 < nums1.length ? Math.min(nums2[0], nums1[num1_mid + 1]) : nums2[0];
+        } else {
+            left_max = Math.max(nums1[num1_mid], nums2[nums2_idx]);
+            right_min = num1_mid + 1 < nums1.length ? Math.min(nums1[num1_mid + 1], nums2[nums2_idx + 1]) : nums2[nums2_idx + 1];
+        }
+
+        if ((nums1.length + nums2.length) % 2 == 1) {
+            //假设总长度是奇数，中位数是两个数的左部分最大值
+            return left_max;
+        } else {
+            //偶数的话要做一个平均
+            return (left_max + right_min) / 2;
+        }
     }
 
     private double findArrayMedium(int nums[]) {
@@ -61,6 +69,6 @@ public class MedianOfTwoSortedArrays {
 
     public static void main(String[] args) {
         MedianOfTwoSortedArrays msa = new MedianOfTwoSortedArrays();
-        System.out.println(msa.findMedianSortedArrays(new int[]{3}, new int[]{1,2}));
+        System.out.println(msa.findMedianSortedArrays(new int[]{1, 2}, new int[]{3, 4, 5}));
     }
 }
