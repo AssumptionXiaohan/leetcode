@@ -7,7 +7,7 @@
  * 要保证两个数组一起来看，左边部分的值永远小于右边部分的值
  */
 public class MedianOfTwoSortedArrays {
-/*    public double medianOfTwoSortedArray(int[] nums1, int[] nums2) {
+    public double medianOfTwoSortedArray(int[] nums1, int[] nums2) {
         if (nums1.length > nums2.length) return medianOfTwoSortedArray(nums2, nums1);
         if (nums1.length == 0) return medianOfSortedArray(nums2);
         int start = 0, end = nums1.length;
@@ -46,7 +46,7 @@ public class MedianOfTwoSortedArrays {
             }
         }
         return -1;
-    }*/
+    }
 
 
     private double medianOfSortedArray(int[] nums) {
