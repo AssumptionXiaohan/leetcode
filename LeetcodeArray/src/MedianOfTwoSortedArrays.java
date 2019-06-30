@@ -5,10 +5,11 @@
  * 如果总长度是奇数，那么分子上+1的操作把中位数保留在了左部分，求左部分最大值即可
  * <p>
  * 要保证两个数组一起来看，左边部分的值永远小于右边部分的值
+ * 这题的边界条件检验思路真的可以好好看一看！！！！！！！！！！！！
  */
 public class MedianOfTwoSortedArrays {
-    public double medianOfTwoSortedArray(int[] nums1, int[] nums2) {
-        if (nums1.length > nums2.length) return medianOfTwoSortedArray(nums2, nums1);
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        if (nums1.length > nums2.length) return findMedianSortedArrays(nums2, nums1);
         if (nums1.length == 0) return medianOfSortedArray(nums2);
         int start = 0, end = nums1.length;
         // partitonsOfAll 表示的意思和你的length表示的意思一样 左半部分元素的个数
@@ -18,7 +19,7 @@ public class MedianOfTwoSortedArrays {
         int partitionNums1, partitionNums2;
 
         while (start <= end) {
-            partitionNums1 = (start + end) / 2; //相当于mid
+            partitionNums1 = start + (end - start) / 2; //相当于mid
             //元素总个数减去nums1左半部分的元素个数
             partitionNums2 = partitionsOfAll - partitionNums1;
             // nums1LeftPartMax表示nums1中左半部分最大的元素，如果partitionNums1为0说明partitionsOfAll全在nums2，
@@ -52,6 +53,7 @@ public class MedianOfTwoSortedArrays {
     private double medianOfSortedArray(int[] nums) {
         return nums.length % 2 == 1 ? nums[nums.length / 2] : ((double) nums[nums.length / 2] + (double) nums[nums.length / 2 - 1]) / 2;
     }
+}
 
 /*    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         //默认nums1长度小，在nums1上做二分查找，如果nums1长度比nums2长，重新调用一次函数把参数反过来
@@ -112,4 +114,3 @@ public class MedianOfTwoSortedArrays {
             return (left + right) / 2;
         }
     }*/
-}
