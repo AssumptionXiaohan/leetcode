@@ -7,6 +7,9 @@ import java.util.*;
  * 这里用的是一个单调递减的 monotonic 队列 也就是从大到小的队列
  * 把比当前元素小的队尾元素删掉，因为不会再用到了，然后把当前元素push进去
  * 如果没有比当前元素小的队尾元素，直接push进去
+ *
+ * 这道题不能用最大堆的原因是因为，虽然最大堆能返回最大值，但是队尾无法删除元素只能进出
+ * 所以我们需要一个两端都可以做删除操作的有序队列
  */
 public class SlidingWindowMaximum {
     public int[] maxSlidingWindow(int[] nums, int k) {
