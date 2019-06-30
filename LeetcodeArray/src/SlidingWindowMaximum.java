@@ -1,17 +1,19 @@
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Deque;
+import java.util.*;
 
 /**
  * Created by 79300 on 2019/6/30.
  * monotonic queue 单调队列 单调递增或者单调递减
  * 一般采用deque来实现，方便（deque是两边都可出入的队列）
- * 这里用的是一个单调递减的 monotonic 队列，小的从队尾push进去，
+ * 这里用的是一个单调递减的 monotonic 队列 也就是从大到小的队列
+ * 把比当前元素小的队尾元素删掉，因为不会再用到了，然后把当前元素push进去
+ * 如果没有比当前元素小的队尾元素，直接push进去
  */
 public class SlidingWindowMaximum {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || nums.length == 0) return new int[0];
         if (k == 1) return nums;
+        Queue<Integer> a = new LinkedList<>();
+        Queue<Integer> b = new PriorityQueue<>();
 
         int[] result = new int[nums.length - k + 1];
         Deque<Integer> deque = new ArrayDeque<>();
