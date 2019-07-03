@@ -1,7 +1,8 @@
 /**
  * Created by 79300 on 2019/7/3.
  * for循环找就可以了
- * 主要是判断边界条件：
+ *
+ * 主要思考问题是判断边界条件：
  * neddle为空的时候直接return 0
  * needle比haystack大或者haystack为空（needle不为空）的情况下return -1
  */
