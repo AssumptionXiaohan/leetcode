@@ -104,12 +104,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseVowelsOfAString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseVowelsOfAString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReverseVowelsOfAString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
               <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsomorphicString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IsomorphicString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/ReverseWordsInAString.java" />
         <option value="$PROJECT_DIR$/src/ReverseWordsInAStringII.java" />
         <option value="$PROJECT_DIR$/src/ReverseVowelsOfAString.java" />
+        <option value="$PROJECT_DIR$/src/IsomorphicString.java" />
       </list>
     </option>
   </component>
@@ -679,12 +692,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562148112157</updated>
-      <workItem from="1562148113516" duration="15160000" />
+      <workItem from="1562148113516" duration="17068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15160000" />
+    <option name="totallyTimeSpent" value="17068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -819,6 +832,16 @@
         <state relative-caret-position="506">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsomorphicString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
