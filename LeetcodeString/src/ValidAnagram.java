@@ -1,3 +1,5 @@
+import java.util.Hashtable;
+
 /**
  * Created by 79300 on 2019/7/6.
  * 也是count每一个字母出现次数的原则，如果每个字母在s和t里出现的次数都相等就返回true
@@ -15,4 +17,5 @@ public class ValidAnagram {
         }
         return true;
     }
+
 }
