@@ -2,8 +2,8 @@
  * Created by 79300 on 2019/7/19.
  * int read4(char[] buf);
  */
-public class ReadNCharactersGivenRead4 extends Reader4 {
-    public int read(char[] buf, int n) {
+public class ReadNCharactersGivenRead4 {
+/*    public int read(char[] buf, int n) {
         int count = 0;
         boolean isEnd = false;
         char[] temp = new char[4];
@@ -21,6 +21,6 @@ public class ReadNCharactersGivenRead4 extends Reader4 {
             }
         }
         return count;
-    }
+    }*/
 
 }
