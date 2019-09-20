@@ -37,7 +37,6 @@ public class BinaryTreePostorderTraversal {
                 stack.push(p.right);
             }
         }
-
         return lst;
     }
 }
