@@ -29,12 +29,11 @@ public class BinaryTreePreorderTraversal {
         Stack<TreeNode> stack = new Stack<>();
 
         while (p != null || !stack.empty()){
-            while (p!=null){
+            if (p!=null){
                 lst.add(p.val);
                 stack.push(p);
                 p = p.left;
-            }
-            if(!stack.empty()){
+            }else {
                 p = stack.peek();
                 stack.pop();
                 p = p.right;
