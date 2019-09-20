@@ -14,7 +14,7 @@ public class BinaryTreeLevelOrderTraversal {
         TreeNode p = root;
         queue.offer(p);
         while (!queue.isEmpty()){
-            //存储当前queue的size，也就是这一层的元素个数
+            //存储当前queue的size，也就是这一层的元素个数，方便把同一层的元素加在同一个list里
             int current_size = queue.size();
             List<Integer> current_lst = new ArrayList<>();
             while (current_size>0){
