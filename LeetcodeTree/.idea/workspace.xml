@@ -91,6 +91,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MaximumDepthOfBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MaximumDepthOfBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BinaryTreeLongestConsecutiveSequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTreeLongestConsecutiveSequence.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumDepthOfBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinimumDepthOfBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MinimumDepthOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -116,18 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="704">
               <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvertBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InvertBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/SumRootToLeafNumbers.java" />
         <option value="$PROJECT_DIR$/src/BinaryTreeLongestConsecutiveSequence.java" />
         <option value="$PROJECT_DIR$/src/MinimumDepthOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/MaximumDepthOfBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -685,12 +684,12 @@
       <workItem from="1568953607607" duration="13677000" />
       <workItem from="1569000593806" duration="618000" />
       <workItem from="1569012139464" duration="5726000" />
-      <workItem from="1569126879854" duration="25957000" />
+      <workItem from="1569126879854" duration="26867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45978000" />
+    <option name="totallyTimeSpent" value="46888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -1016,17 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SumRootToLeafNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTreeLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -1059,6 +1047,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SumRootToLeafNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaximumDepthOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
