@@ -12,13 +12,13 @@ public class BinaryTreeMaximumPathSum {
 
     public int helper(TreeNode treeNode) {
         if (treeNode == null) return 0;
-        //如果某一个子树最大值小于0的话，不如不加
+        //left表示该节点的左子结点的sum最大的路径，right同理
+        //如果两个子结点sum最大的时候<0，不如不加
         int left = Math.max(helper(treeNode.left), 0);
         int right = Math.max(helper(treeNode.right), 0);
-        //更新maxSum的值
+        //更新maxSum的值，
         maxSum = Math.max(maxSum, left + right + treeNode.val);
-        //return当前子树的最大值
-        //没懂为什么不是 return left+right+treeNode.val;
+        //return当前当前子结点的sum最大的路径，也就是当前结点的值加上左右相比较大的一条路径
         return Math.max(left,right)+treeNode.val;
     }
 
