@@ -23,21 +23,15 @@ public class BinaryTreePreorderTraversal {
 
     //先一直往左走，走到null就从栈里push出一个往右找一步，再接着重复之前的步骤
     public List<Integer> preorderTraversal(TreeNode root) {
-        TreeNode p = root;
         List<Integer> lst = new ArrayList<>();
-        if (p == null) return lst;
+        if (root == null) return lst;
         Stack<TreeNode> stack = new Stack<>();
-
-        while (p != null || !stack.empty()){
-            if (p!=null){
-                lst.add(p.val);
-                stack.push(p);
-                p = p.left;
-            }else {
-                p = stack.peek();
-                stack.pop();
-                p = p.right;
-            }
+        stack.push(root);
+        while (!stack.empty()) {
+            TreeNode t = stack.pop();
+            lst.add(t.val);
+            if (t.right != null) stack.push(t.right);
+            if (t.left != null) stack.push(t.left);
         }
         return lst;
     }
