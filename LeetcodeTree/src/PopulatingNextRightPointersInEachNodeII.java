@@ -23,6 +23,7 @@ public class PopulatingNextRightPointersInEachNodeII {
                 }
                 if (parent.right != null) {
                     if(childhead==null){
+                        //说明刚刚开始新的一层
                         childhead = parent.right;
                         current_child = parent.right;
                     }else {
