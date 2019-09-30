@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * Created by 79300 on 2019/9/28.
+ * 主要思想还是用queue实现层次遍历
  */
 public class BSTIterator {
     private Queue<Integer> queue;

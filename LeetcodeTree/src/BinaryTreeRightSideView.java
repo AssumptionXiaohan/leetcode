@@ -5,6 +5,7 @@ import java.util.Queue;
 
 /**
  * Created by 79300 on 2019/9/26.
+ * 其实还是层次遍历取每一层最右边的值
  */
 public class BinaryTreeRightSideView {
     public List<Integer> rightSideView(TreeNode root) {
