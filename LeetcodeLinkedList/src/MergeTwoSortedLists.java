@@ -3,7 +3,8 @@
  * recursive
  */
 public class MergeTwoSortedLists {
-    /*    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    /*  递归解法
+        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
             if (l1 == null) return l2;
             if (l2 == null) return l1;
             if(l1.val>l2.val){
@@ -14,6 +15,7 @@ public class MergeTwoSortedLists {
                 return l1;
             }
         }*/
+    //遍历解法
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) return l2;
         if (l2 == null) return l1;
