@@ -1,6 +1,5 @@
 /**
  * Created by 79300 on 2019/10/7.
- * 这个binary search的通用公式有点好用
  */
 public class FindMinimumInRotatedSortedArray {
     public int findMin(int[] nums) {
