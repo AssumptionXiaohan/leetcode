@@ -35,11 +35,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstBadVersion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FirstBadVersion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FirstBadVersion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="132">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchInsertPosition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SearchInsertPosition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchInRotatedSortedArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SearchInRotatedSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchInRotatedSortedArrayII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SearchInRotatedSortedArrayII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="28" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -64,6 +94,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/VersionControl.java" />
         <option value="$PROJECT_DIR$/src/FirstBadVersion.java" />
+        <option value="$PROJECT_DIR$/src/SearchInsertPosition.java" />
+        <option value="$PROJECT_DIR$/src/SearchInRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/SearchInRotatedSortedArrayII.java" />
       </list>
     </option>
   </component>
@@ -566,15 +599,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570483183480</updated>
-      <workItem from="1570483184770" duration="2358000" />
+      <workItem from="1570483184770" duration="9425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2358000" />
+    <option name="totallyTimeSpent" value="9425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -634,8 +667,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstBadVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchInsertPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchInRotatedSortedArrayII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="28" selection-end-column="5" />
           <folding />
         </state>
       </provider>
