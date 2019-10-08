@@ -1,5 +1,7 @@
 /**
  * Created by 79300 on 2019/10/7.
+ * https://www.youtube.com/watch?v=eG27FBcmy1k
+ * 存在重复的数字 可能出现mid=low=high的情况
  */
 public class SearchInRotatedSortedArrayII {
     public boolean search(int[] nums, int target) {
@@ -16,6 +18,8 @@ public class SearchInRotatedSortedArrayII {
                 } else {
                     low = mid;
                 }
+            } else if (nums[mid] == nums[low]) {
+                low++;
             } else {
                 if (nums[high] >= target && target >= nums[mid]) {
                     low = mid;
@@ -24,7 +28,7 @@ public class SearchInRotatedSortedArrayII {
                 }
             }
         }
-        if (nums[low] == target||nums[high]==target) return true;
+        if (nums[low] == target || nums[high] == target) return true;
         return false;
     }
 }
