@@ -36,7 +36,7 @@ public class WordSearch {
             //四个方向只要有一条能找到就返回true
             if (dfs(word, board, x, y, visited, idx + 1)) return true;
         }
-        //遍历完ij之后的所有路径后，要把visited[i][j]重置为false，否则会影响主函数中下一次调用
+        //遍历完ij之后的所有路径后，要把visited[i][j]重置为false，以便之前的结点还能走其他路径
         visited[i][j] = false;
         //说明四个方向都没找到 return false
         return false;
