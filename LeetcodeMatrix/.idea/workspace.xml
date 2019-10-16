@@ -32,16 +32,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordLadder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WordLadder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KthSmallestElementInASortedMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KthSmallestElementInASortedMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,14 +78,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShortestDistanceFromAllBuildings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShortestDistanceFromAllBuildings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShortestDistanceFromAllBuildings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="-792">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BombEnemy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BombEnemy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/WordSearch.java" />
         <option value="$PROJECT_DIR$/src/BestMeetingPoint.java" />
         <option value="$PROJECT_DIR$/src/ShortestDistanceFromAllBuildings.java" />
+        <option value="$PROJECT_DIR$/src/BombEnemy.java" />
       </list>
     </option>
   </component>
@@ -702,15 +703,15 @@
       <option name="presentableId" value="Default" />
       <updated>1570952392959</updated>
       <workItem from="1570952394194" duration="19612000" />
-      <workItem from="1571130646429" duration="15747000" />
+      <workItem from="1571130646429" duration="19113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35359000" />
+    <option name="totallyTimeSpent" value="38725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -946,11 +947,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ShortestDistanceFromAllBuildings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="-792">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BombEnemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>

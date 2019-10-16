@@ -5,6 +5,8 @@ import java.util.Queue;
  * Created by 79300 on 2019/10/15.
  * 对每一个1的点进行BFS
  * 同时计算totalDis(每一个0结点到所有1结点的距离)
+ * 需要一个reached数组来维护每个0被访问的次数，因为有可能不是所有的1都能访问到0，也就是说有的建筑是永远访问不到的情况
+ * 只有在被访问的次数=矩阵里1的个数的时候才能确保所有的建筑都可以到达
  */
 public class ShortestDistanceFromAllBuildings {
     private static final int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
