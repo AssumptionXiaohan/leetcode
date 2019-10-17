@@ -1,5 +1,6 @@
 /**
  * Created by 79300 on 2019/10/16.
+ * 重点在于计算3x3方格中的数字在整体数独中的index
  */
 public class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
