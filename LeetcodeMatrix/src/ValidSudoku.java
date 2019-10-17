@@ -28,8 +28,18 @@ public class ValidSudoku {
             }
         }
         //3x3子矩阵
-        for (int i = 0; i < 9; i++) {
-
+        for (int box = 0; box < 9; box++) {
+            boolean[] oneBox = new boolean[10];
+            for(int row=0;row<3;row++){
+                for(int col=0;col<3;col++){
+                    if(board[row+3*(box/3)][col+3*(box%3)]!='.'){
+                        int num = board[row+3*(box/3)][col+3*(box%3)] -'1';
+                        if(oneBox[num]) return false;
+                        else oneBox[num] = true;
+                    }
+                }
+            }
         }
+        return true;
     }
 }
