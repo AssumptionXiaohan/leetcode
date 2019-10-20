@@ -29,6 +29,6 @@ public class EvaluateReversePolishNotation {
                 stack.push(current);
             }
         }
-        return stack.pop();
+        return Integer.valueOf(stack.pop());
     }
 }
