@@ -35,6 +35,7 @@ public class BasicCalculatorII {
                 num = 0;
             }
         }
+        //加上最后一个num
         if (sign == '+') {
             stack.push(num);
         } else if (sign == '-') {
