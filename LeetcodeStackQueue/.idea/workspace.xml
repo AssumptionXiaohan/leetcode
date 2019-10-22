@@ -68,6 +68,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TopKFrequentElements.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TopKFrequentElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DecodeString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DecodeString.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,16 +118,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthLargestElementInAnArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KthLargestElementInAnArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KthLargestElementInAnArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#267#276#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/NestedInteger.java" />
         <option value="$PROJECT_DIR$/src/MiniParser.java" />
         <option value="$PROJECT_DIR$/src/KthLargestElementInAnArray.java" />
+        <option value="$PROJECT_DIR$/src/TopKFrequentElements.java" />
       </list>
     </option>
   </component>
@@ -712,15 +720,15 @@
       <workItem from="1571561991007" duration="13645000" />
       <workItem from="1571619992553" duration="6817000" />
       <workItem from="1571635346120" duration="5708000" />
-      <workItem from="1571707333026" duration="1226000" />
+      <workItem from="1571707333026" duration="5254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27396000" />
+    <option name="totallyTimeSpent" value="31424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -850,9 +858,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#267#276#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1077,14 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestAbsoluteFilePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1123,16 +1120,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestAbsoluteFilePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/KthLargestElementInAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#267#276#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

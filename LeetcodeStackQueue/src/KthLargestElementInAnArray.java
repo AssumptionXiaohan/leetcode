@@ -7,12 +7,8 @@ import java.util.Queue;
  */
 public class KthLargestElementInAnArray {
     public int findKthLargest(int[] nums, int k) {
-        Queue<Integer> pq = new PriorityQueue<Integer>(k, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o2-o1;
-            }
-        });
+        //实现最小堆 每次把更小的po出去，堆里留下的永远是最大的三个
+        Queue<Integer> pq = new PriorityQueue<>();
         for(int num:nums){
             pq.offer(num);
             while (pq.size()>k){
