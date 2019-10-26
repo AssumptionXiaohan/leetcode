@@ -7,6 +7,15 @@ public class FindKPairsWithSmallestSums {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         List<List<Integer>> result = new ArrayList<>();
         if (nums1.length == 0 || nums2.length == 0) return result;
+        Queue<Map.Entry<String,Integer>> p_queue = new PriorityQueue<>(new Comparator<Map.Entry<String,Integer>>(){
+            public int compare(Map.Entry<String,Integer> o1,Map.Entry<String,Integer> o2){
+                if(o1.getValue()!=o2.getValue()){
+                    return o2.getValue()-o1.getValue();
+                }else{
+                    return o1.getKey().compareTo(o2.getKey());
+                }
+            }
+        });
         Queue<int[]> queue = new PriorityQueue<>(new Comparator<int[]>() {
             @Override
             public int compare(int[] o1, int[] o2) {
@@ -29,6 +38,8 @@ public class FindKPairsWithSmallestSums {
             //没到结尾的话需要挪到下一个nums2的值
             queue.offer(new int[]{current[0], nums2[current[2] + 1], current[2] + 1});
         }
+        Map<Integer,Integer> hashMap = new HashMap<>();
+
         return result;
     }
 }
