@@ -4,6 +4,7 @@
 public class DecodeWays {
     public int numDecodings(String s) {
         int[] dp = new int[s.length() + 1];
+        //所有以0开头的都无法解析
         if (s == null || s.length() == 0 || s.charAt(0) == '0') return 0;
         dp[0] = 1;
         dp[1] = 1;
