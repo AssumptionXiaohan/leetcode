@@ -11,11 +11,12 @@ public class SuperUglyNumber {
         for (int i = 1; i < n; i++) {
             nums[i] = Integer.MAX_VALUE;
             for (int j = 0; j < idx_primes.length; j++) {
-                //去重
-                if (idx_primes[j] < nums.length && nums[idx_primes[j]] * primes[j] == nums[i - 1]) {
+                nums[i] = Math.min(nums[i], nums[idx_primes[j]] * primes[j]);
+            }
+            for(int j=0;j<idx_primes.length;j++){
+                if(nums[i]==nums[idx_primes[j]] * primes[j]){
                     idx_primes[j]++;
                 }
-                nums[i] = Math.min(nums[i], nums[idx_primes[j]] * primes[j]);
             }
         }
         return nums[n - 1];
