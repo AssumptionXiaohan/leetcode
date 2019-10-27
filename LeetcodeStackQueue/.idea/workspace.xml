@@ -32,16 +32,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimplifyPath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SimplifyPath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TopKFrequentElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TopKFrequentElements.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindKPairsWithSmallestSums.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindKPairsWithSmallestSums.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindKPairsWithSmallestSums.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="643">
@@ -92,10 +82,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="KClosestPointsToOrigin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/KClosestPointsToOrigin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="KthLargest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KthLargest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="308">
               <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -160,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/KthLargest.java" />
         <option value="$PROJECT_DIR$/src/TopKFrequentElements.java" />
         <option value="$PROJECT_DIR$/src/FindKPairsWithSmallestSums.java" />
+        <option value="$PROJECT_DIR$/src/KClosestPointsToOrigin.java" />
       </list>
     </option>
   </component>
@@ -207,8 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,6 +246,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -740,15 +744,16 @@
       <workItem from="1571889284579" duration="676000" />
       <workItem from="1572047651531" duration="1496000" />
       <workItem from="1572054453499" duration="3538000" />
+      <workItem from="1572145503625" duration="708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44096000" />
+    <option name="totallyTimeSpent" value="44804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -809,14 +814,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SuperUglyNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindKPairsWithSmallestSums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1195,7 +1192,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KthLargest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="308">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1240,6 +1237,17 @@
         <state relative-caret-position="643">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KClosestPointsToOrigin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
