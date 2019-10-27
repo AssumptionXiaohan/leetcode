@@ -117,8 +117,8 @@
       <file leaf-file-name="ContainsDuplicates.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ContainsDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="14" column="13" selection-start-line="12" selection-start-column="70" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -786,12 +786,12 @@
       <workItem from="1570209314749" duration="1298000" />
       <workItem from="1570302547319" duration="8693000" />
       <workItem from="1570438014144" duration="6357000" />
-      <workItem from="1572126662168" duration="4968000" />
+      <workItem from="1572126662168" duration="6782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58793000" />
+    <option name="totallyTimeSpent" value="60607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -1261,8 +1261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ContainsDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="13" selection-start-line="12" selection-start-column="70" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="22">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
